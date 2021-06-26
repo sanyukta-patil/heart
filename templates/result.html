@@ -13,7 +13,13 @@
       font-size: xxx-large;
       text-align:centre;
   }
-
+.btn-danger{
+			border-radius: 0;
+			padding: 10px 20px;
+						color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+		}
 </style>
 
 
@@ -29,13 +35,13 @@
 			<span class="navbar-brand mb-0 h1">Heart Disease Test</span>
 
       <ul class="right hide-on-med-and-down">
-        <li><a href="/">Home</a></li>
+       <a href="/" class="btn btn-danger">Home</a>
       </ul>
       </nav>
 
 
   <div class="row" style="margin:15% 0% 0% 10%">
-   <h3 style="color:#ff0000">{{result}}</h3>
+   <h3 style="color:#d9534f">{{result}}</h3>
 </div>
 <br>
 
